@@ -136,9 +136,9 @@ private fun SportHeader(
         ) = createRefs()
 
         Icon(
-            painter = painterResource(R.drawable.ic_soccer),
+            painter = painterResource(R.drawable.ic_sport),
             contentDescription = null,
-            tint = Color.White,
+            tint = Color.Red,
             modifier = Modifier
                 .padding(vertical = 6.dp)
                 .constrainAs(refImage) {
